@@ -1,0 +1,93 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\DOTNET\\PROJECTS\\Microservices\\NocdeskAPIgetway\\NocdeskAPIgetway\\NocdeskAPIgetway.csproj": {}
+  },
+  "projects": {
+    "C:\\DOTNET\\PROJECTS\\Microservices\\NocdeskAPIgetway\\NocdeskAPIgetway\\NocdeskAPIgetway.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\DOTNET\\PROJECTS\\Microservices\\NocdeskAPIgetway\\NocdeskAPIgetway\\NocdeskAPIgetway.csproj",
+        "projectName": "NocdeskAPIgetway",
+        "projectPath": "C:\\DOTNET\\PROJECTS\\Microservices\\NocdeskAPIgetway\\NocdeskAPIgetway\\NocdeskAPIgetway.csproj",
+        "packagesPath": "C:\\Users\\USER\\.nuget\\packages\\",
+        "outputPath": "C:\\DOTNET\\PROJECTS\\Microservices\\NocdeskAPIgetway\\NocdeskAPIgetway\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\USER\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\sdk\\7.0.304\\Sdks\\Microsoft.NET.Sdk.Web\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.1": {
+            "targetAlias": "netcoreapp2.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.1": {
+          "targetAlias": "netcoreapp2.1",
+          "dependencies": {
+            "CassandraCSharpDriver": {
+              "target": "Package",
+              "version": "[3.18.0, )"
+            },
+            "Microsoft.AspNetCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.1.1, )",
+              "autoReferenced": true
+            },
+            "Microsoft.AspNetCore.Razor.Design": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.1.2, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.1.0, )",
+              "autoReferenced": true
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[2.1.9, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
